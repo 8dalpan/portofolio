@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>Portofolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <style>
+      * {
+        margin: 0;
+        box-sizing: border-box;
+      }
+      ul li a:hover {
+        color: rgb(255, 0, 0); /* text berubah warna */
+        background: #00f; /* primary yang cocok */
+        border-radius: 5px; /* runded */
+        transition: all 0.5s; /* membuat transisi smoth */
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body style="background-color: #282828">
+    <!-- Adjusted background color -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <!-- Adjusted navbar background color -->
+      <div class="container">
+        <a class="navbar-brand fw-bold fs-3" href="#"
+          >Dalpan <span class="text-primary">Rohi</span></a
+        >
+        <span id="element"></span>
+        <!-- Adjusted text color -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul
+            class="navbar-nav ms-auto"
+            style="font-family: 'Poppins', sans-serif"
+          >
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#Home"
+                style="font-size: 18px; color: #ffffff"
+                >Home</a
+              >
+              <!-- Adjusted text color -->
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#About"
+                style="font-size: 18px; color: #ffffff"
+                >About</a
+              >
+              <!-- Adjusted text color -->
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#Projects"
+                style="font-size: 18px; color: #ffffff"
+                >Projects</a
+              >
+              <!-- Added Projects to navbar -->
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#Skills"
+                style="font-size: 18px; color: #ffffff"
+                >Skills</a
+              >
+              <!-- Adjusted text color -->
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#Contact"
+                style="font-size: 18px; color: #ffffff"
+                >Contact</a
+              >
+              <!-- Adjusted text color -->
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div id="Home" class="row">
+        <div
+          class="col-md-6 col-sm-12"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <div
+            class="text-white fw-bold"
+            style="
+              font-family: 'Poppins', sans-serif;
+              margin-top: 150px;
+              margin-left: 50px;
+            "
+          >
+            <h6 class="text-white">Hello</h6>
+            <h1>
+              I'm Dalpan
+              <span id="element" class="text-primary"><br />Rohi</span>
+              <!-- Adjusted text color -->
+            </h1>
+            <h4>Full Stack Developer</h4>
+            <button type="button" class="btn btn-primary rounded">
+              Learn More
+            </button>
+            <!-- Adjusted button color -->
+          </div>
+        </div>
+
+        <div
+          class="col-md-6 col-sm-12"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+        >
+          <div
+            style="
+              position: relative;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            "
+          >
+            <div
+              style="
+                width: 300px;
+                height: 300px;
+                margin-top: 80px;
+                background-color: rgb(0, 123, 255);
+                border-radius: 50%;
+                position: absolute;
+                z-index: 1;
+                box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+              "
+            ></div>
+            <img
+              src="img/pp.png"
+              alt="Profile Picture"
+              style="
+                display: block;
+                width: 100%;
+                height: auto;
+                max-width: 335px;
+                margin-bottom: 100px;
+                margin-left: auto;
+                margin-right: auto;
+                position: relative;
+                z-index: 2;
+              "
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        id="About"
+        class="aboutme text-white"
+        style="font-family: Arial, sans-serif"
+        data-aos="fade-up"
+      >
+        <h2 class="text-center mb-5 fw-bold" style="font-size: 24px">
+          About <span class="text-primary">Me</span>
+        </h2>
+
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <img
+              src="img/pp.png"
+              alt="Gambar Generasi"
+              style="
+                display: block;
+                width: 100%;
+                height: auto;
+                max-width: 300px;
+                margin-top: -100px;
+                margin-bottom: 50px;
+                margin-left: auto;
+                margin-right: 170px;
+              "
+            />
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <p style="font-size: 16px; line-height: 1.5">
+              My name is Dalpan Rohi. I was born in Serang on October 27, 2005.
+              I am a passionate Full Stack Developer with a strong background in
+              web development. I love creating innovative solutions and learning
+              new technologies. In my free time, I enjoy coding, reading tech
+              blogs, and playing video games.
+            </p>
+            <!-- Place your image here -->
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div
+          id="Projects"
+          class="projects text-white"
+          style="font-family: Arial, sans-serif"
+          data-aos="fade-up"
+        >
+          <h2 class="text-center mb-5 fw-bold" style="font-size: 24px">
+            Projects
+          </h2>
+          <div
+            class="row d-flex justify-content-center align-items-center"
+            data-aos="fade-up"
+          >
+            <div class="col-md-4 col-sm-6 col-12 mb-4" data-aos="fade-up">
+              <div
+                class="card rounded border-primary text-light bg-transparent h-100"
+              >
+                <img
+                  src="img/puskesmas.png"
+                  class="card-img-top"
+                  alt="Project 1"
+                  style="width: 100%; height: auto"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Project 1</h5>
+                  <p class="card-text">Description of Project 1.</p>
+                  <a href="webpuskesmas/index.html" class="btn btn-primary"
+                    >View Project</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-12 mb-4" data-aos="fade-up">
+              <div
+                class="card rounded border-primary text-light bg-transparent h-100"
+              >
+                <img
+                  src="img/rumahsakit.png"
+                  class="card-img-top"
+                  alt="Project 2"
+                  style="width: 100%; height: auto"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Rumah Sakit An~Nasya</h5>
+                  <p class="card-text">
+                    Rumah Sakit An~Nasya is a hospital project aimed at
+                    providing quality healthcare services to the community.
+                  </p>
+                  <a href="Web Rumah Sakit/index.html" class="btn btn-primary"
+                    >View Project</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-12 mb-4" data-aos="fade-up">
+              <div
+                class="card rounded border-primary text-light bg-transparent h-100"
+              >
+                <img
+                  src="img/restaurant.png"
+                  class="card-img-top"
+                  alt="Project 3"
+                  style="width: 100%; height: auto"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Administrator Restaurant</h5>
+                  <p class="card-text">
+                    This project is a restaurant management system for
+                    Restaurant Bjirr.
+                  </p>
+                  <a href="restaurant.html" class="btn btn-primary"
+                    >View Project</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        id="Skills"
+        class="skills text-white"
+        style="font-family: Arial, sans-serif"
+        data-aos="fade-up"
+      >
+        <h2 class="text-center mb-5 fw-bold mt-5 mb-2" style="font-size: 24px">
+          Skills
+        </h2>
+        <div class="row text-center">
+          <div class="col-md-2 col-sm-4 col-4 mb-4">
+            <img
+              src="img/html.png"
+              alt="HTML"
+              style="width: 55px; height: 55px"
+            />
+            <p>HTML</p>
+          </div>
+          <div class="col-md-2 col-sm-4 col-4 mb-4">
+            <img
+              src="img/css.png"
+              alt="CSS"
+              style="width: 55px; height: 55px"
+            />
+            <p>CSS</p>
+          </div>
+          <div class="col-md-2 col-sm-4 col-4 mb-4">
+            <img
+              src="img/js.png"
+              alt="JavaScript"
+              style="width: 80px; height: 55px"
+            />
+            <p>JavaScript</p>
+          </div>
+          <div class="col-md-2 col-sm-4 col-4 mb-4">
+            <img
+              src="img/php.png"
+              alt="PHP"
+              style="width: 55px; height: 55px"
+            />
+            <p>PHP</p>
+          </div>
+          <div class="col-md-2 col-sm-4 col-4 mb-4">
+            <img
+              src="img/bootstrap.png"
+              alt="Bootstrap"
+              style="width: 85px; height: 85px"
+            />
+            <p>Bootstrap</p>
+          </div>
+          <div class="col-md-2 col-sm-4 col-4 mb-4">
+            <img
+              src="img/codeigniter.png"
+              alt="CodeIgniter"
+              style="width: 80px; height: 80px"
+            />
+            <p>CodeIgniter</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer id="Contact" class="bg-body-transparent text-center w-100">
+      <!-- Grid container -->
+    <a class="text-decoration-none fw-bold" href="">Copy-Right @ 
+      <script>
+        document.write(new Date().getFullYear())
+      </script>
+    </a>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        once: true,
+        mirror: false,
+      });
+    </script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Rohi"],
+        typeSpeed: 75,
+        loop: true,
+      });
+    </script>
+    <script>
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+
+          document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
